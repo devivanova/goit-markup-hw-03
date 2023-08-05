@@ -90,6 +90,11 @@ body {
     overflow: hidden;
 }
 
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 /* ================ PAGE HEADER ================*/
 
 .page-header {
@@ -195,7 +200,6 @@ ul.menu {
 
 .advantages-section {
     padding-top: 120px;
-    padding-bottom: 60px;
 }
 
 .advantages-container {
@@ -229,7 +233,6 @@ ul.menu {
 }
 
 .we-doing-section {
-    padding-top: 60px;
     padding-bottom: 120px;
 }
 
@@ -350,7 +353,6 @@ ul.menu {
 
 .portfolio-list-item {
     flex-basis: calc((100% - 2 * 24px) / 3);
-    outline: 1px solid var(--accent-color);
 }
 
 .span-header {
@@ -358,9 +360,10 @@ ul.menu {
 }
 
 .portfolio-list-item-container {
-    margin-top: 32px;
     margin-bottom: 32px;
+    padding-top: 32px;
     padding-left: 16px;
+    border: 1px solid var(--accent-color);
 }
 
 .projects-title {
