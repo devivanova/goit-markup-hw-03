@@ -273,6 +273,13 @@ ul.menu {
     gap: 24px;
 }
 
+.employee-list-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    background-color: var(--primary-white-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 0px 0px 4px 4px;
+}
+
 .our-team-title {
     font-size: 36px;
     line-height: 1.11;
@@ -284,13 +291,6 @@ ul.menu {
 
 .employee-container {
     padding: 32px 0;
-}
-
-.employee {
-    background-color: var(--primary-white-color);
-    flex-basis: calc((100% - 3 * 24px) / 4);
-    border: 1px solid var(--accent-color);
-    border-radius: 0px 0px 4px 4px;
 }
 
 .employee-name {
