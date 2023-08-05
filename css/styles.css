@@ -98,8 +98,8 @@ body {
 /* ================ PAGE HEADER ================*/
 
 .page-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
+    border-bottom: 1px solid var(--accent-color);
 }
 
 .page-header-container {
@@ -114,6 +114,10 @@ body {
 
 .contacts-list {
     color: var(--text-color);
+}
+
+.logo {
+    margin-right: 76px;
 }
 
 a.logo {
@@ -132,8 +136,7 @@ a.logo {
 
 .menu {
     display: flex;
-    column-gap: 40px;
-    margin-left: 76px;
+    gap: 40px;
 }
 
 ul.menu {
@@ -147,14 +150,13 @@ ul.menu {
 
 .contact-header {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 /* ================ MAIN PAGE ================*/
 
 .hero-container {
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding: 188px 0;
 }
 .hero-image {
     background-color: var(--primary-dark-color);
@@ -171,7 +173,7 @@ ul.menu {
     text-align: center;
     color: var(--primary-white-color);
     margin-bottom: 48px;
-    width: 496px;
+    max-width: 496px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -191,6 +193,7 @@ ul.menu {
     margin-right: auto;
     border: 0;
     border-radius: 4px;
+    min-width: 169px;
 }
 
 .cta-button:hover,
@@ -199,7 +202,7 @@ ul.menu {
 }
 
 .advantages-section {
-    padding-top: 120px;
+    padding: 120px 0;
 }
 
 .advantages-container {
@@ -248,7 +251,7 @@ ul.menu {
 }
 
 .we-doing-list-item {
-    flex-basis: calc((100% - 2 * 24px) / 3);
+    flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 .we-doing-title {
@@ -287,14 +290,14 @@ ul.menu {
 }
 
 .employee-container {
-    text-align: center;
-    margin: 32px 16px;
+    padding: 32px 0;
 }
 
 .employee {
     background-color: var(--primary-white-color);
     flex-basis: calc((100% - 3 * 24px) / 4);
     border: 1px solid var(--accent-color);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .employee-name {
@@ -304,12 +307,14 @@ ul.menu {
     letter-spacing: 0.02em;
     color: var(--primary-dark-color);
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .employee-position {
     font-size: 16px;
     letter-spacing: 0.02em;
     color: var(--text-color);
+    text-align: center;
 }
 
 /* ================ PORTFOLIO PAGE ================*/
@@ -321,7 +326,7 @@ ul.menu {
 
 .filter {
     display: flex;
-    gap: 48px 24px;
+    gap: 24px;
     justify-content: center;
     margin-bottom: 72px;
 }
@@ -335,7 +340,7 @@ ul.menu {
     color: var(--primary-brand-color);
     background-color: var(--primary-light-color);
     padding: 12px 24px;
-    border: 1px solid var(--accent-color);
+    border: 1px solid transparent;
     border-radius: 4px;
 }
 
@@ -348,7 +353,8 @@ ul.menu {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-list-item {
@@ -360,10 +366,11 @@ ul.menu {
 }
 
 .portfolio-list-item-container {
-    margin-bottom: 32px;
+    padding: 32px 16px;
     padding-top: 32px;
     padding-left: 16px;
     border: 1px solid var(--accent-color);
+    border-top: none;
 }
 
 .projects-title {
@@ -385,6 +392,10 @@ ul.menu {
 
 /* ================ PAGE FOOTER ================*/
 
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .span-footer {
     color: var(--primary-light-color);
 }
@@ -399,7 +410,6 @@ footer {
     color: var(--primary-light-color);
     letter-spacing: 0.02em;
     line-height: 1.5;
-    margin-top: 16px;
     width: 264px;
 }
 
