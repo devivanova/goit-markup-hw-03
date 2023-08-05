@@ -1,0 +1,197 @@
+:root {
+    --primary-brand-color: #4D5AE5;
+    --pressed-state-color: #404BBF;
+    --primary-dark-color: #2E2F42;
+    --primary-light-color: #F4F4FD;
+    --primary-white-color: #ffffff;
+    --success-color: #31D0AA;
+    --text-color: #434455;
+    --subtle-text-color: #8E8F99;
+    --accent-color: #E7E9FC;
+    --modal-background-color: #FCFCFC;
+    --primary-font: 'Roboto', sans-serif;
+    --logo-font: 'Raleway', sans-serif;
+}
+
+body {
+    color: var(--text-color);
+    font-family: var(--primary-font);
+    background-color: var(--primary-white-color);
+}
+
+.list li{
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--primary-dark-color);
+}
+
+.contacts-list {
+    color: var(--text-color);
+}
+
+.link:active,
+.link:hover,
+.link:focus {
+    color: var(--pressed-state-color);
+}
+
+button {
+    cursor: pointer;
+}
+
+.filter-button {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-brand-color);
+    background-color: var(--primary-light-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background-color: var(--pressed-state-color);
+    color: var(--primary-white-color);
+}
+
+a.logo {
+    font-family: var(--logo-font);
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: var(--primary-brand-color);
+}
+
+.span-header {
+    color: var(--primary-dark-color);
+}
+
+.span-footer {
+    color: var(--primary-light-color);
+}
+
+ul.menu {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.hero-image {
+    background-color: var(--primary-dark-color);
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--primary-white-color);
+}
+
+.cta-button {
+    background-color: var(--primary-brand-color);
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-white-color);
+}
+
+.cta-button:hover,
+.cta-button:focus {
+    background-color: var(--pressed-state-color);
+}
+
+.advantage-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-dark-color);
+}
+
+.advantage-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.we-doing-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-dark-color);
+}
+
+.our-team-section {
+    background-color: var(--primary-light-color);
+}
+
+.our-team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-dark-color);
+}
+
+.employee-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-dark-color);
+}
+
+.employee {
+    background-color: var(--primary-white-color);
+}
+
+.employee-position {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+
+}
+
+.projects-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-dark-color);
+}
+
+.projects-category {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+footer {
+    background-color: var(--primary-dark-color);
+}
+
+.footer-text {
+    color: var(--primary-light-color);
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+.contacts {
+    font-style: normal;
+}
